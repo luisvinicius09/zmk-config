@@ -36,7 +36,7 @@
 &kp  TAB      &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T        &kp  LBKT             &kp  RBKT   &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  BSLH
 &kp  ESC      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G        &kp  DEL               &kp  BSPC     &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  SQT
 &kp  LSHFT    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  END               &kp  HOME     &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  RSHFT
-&kp  LCTRL    & PG_DN         &kp LALT      &none    &kp  LMETA     &kp  SPACE    &mo  LOWER             &mo  RAISE    &kp  RET      &kp RMETA     &none         &kp  RALT    &kp  PG_UP      &kp  RCTRL
+&kp  LCTRL    &kp PG_DN         &kp LALT      &none    &kp  LMETA     &kp  SPACE    &mo  LOWER             &mo  RAISE    &kp  RET      &kp RMETA     &none         &kp  RALT    &kp  PG_UP      &kp  RCTRL
                         >;
                 };
                 lower_layer {
@@ -72,7 +72,7 @@
  * |-------------+------+------+------+------+------+------+------+------+------+------+------+------+------+-------------|
  * | Ctlr |      |      |  Alt  |||||||| Win  |      | Lower|||||||| Raise|      | RAlt ||||||||      |      |      | RCtrl|
  * .----------------------------------------------------------------------------------------------------------------------.
- */ /* FIXME boot and reset are not yet locale aware */
+ */ 
                         bindings = <
 &none         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none         &bt BT_CLR             &none         &none         &none         &none         &none         &none         &none
 &trans         &none         &none         &none         &none         &none         &none                  &none         &none         &none         &none         &none         &none         &none
